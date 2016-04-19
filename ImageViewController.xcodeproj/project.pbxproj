@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4511DE111CC48529002AEBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE101CC48529002AEBE1 /* AppDelegate.swift */; };
-		4511DE131CC48529002AEBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE121CC48529002AEBE1 /* ViewController.swift */; };
-		4511DE161CC48529002AEBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4511DE141CC48529002AEBE1 /* Main.storyboard */; };
+		4511DE161CC48529002AEBE1 /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4511DE141CC48529002AEBE1 /* Image.storyboard */; };
 		4511DE181CC48529002AEBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4511DE171CC48529002AEBE1 /* Assets.xcassets */; };
 		4511DE1B1CC48529002AEBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4511DE191CC48529002AEBE1 /* LaunchScreen.storyboard */; };
+		4511DE241CC48550002AEBE1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE231CC48550002AEBE1 /* Helper.swift */; };
+		4511DE281CC4856D002AEBE1 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE271CC4856D002AEBE1 /* Course.swift */; };
+		4511DE301CC4AB7F002AEBE1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE2F1CC4AB7F002AEBE1 /* ImageViewController.swift */; };
+		4511DE321CC4B03D002AEBE1 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE311CC4B03D002AEBE1 /* Then.swift */; };
+		4511DE341CC4DEBC002AEBE1 /* ImageScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4511DE331CC4DEBC002AEBE1 /* ImageScrollView.xib */; };
+		4511DE361CC4DED3002AEBE1 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE351CC4DED3002AEBE1 /* ImageScrollView.swift */; };
+		4511DE391CC5E386002AEBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4511DE381CC5E386002AEBE1 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4511DE0D1CC48529002AEBE1 /* ImageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4511DE101CC48529002AEBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4511DE121CC48529002AEBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4511DE151CC48529002AEBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4511DE151CC48529002AEBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Image.storyboard; sourceTree = "<group>"; };
 		4511DE171CC48529002AEBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4511DE1A1CC48529002AEBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4511DE1C1CC48529002AEBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4511DE231CC48550002AEBE1 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4511DE271CC4856D002AEBE1 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		4511DE2F1CC4AB7F002AEBE1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4511DE311CC4B03D002AEBE1 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		4511DE331CC4DEBC002AEBE1 /* ImageScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageScrollView.xib; sourceTree = "<group>"; };
+		4511DE351CC4DED3002AEBE1 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		4511DE381CC5E386002AEBE1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,35 @@
 			isa = PBXGroup;
 			children = (
 				4511DE101CC48529002AEBE1 /* AppDelegate.swift */,
-				4511DE121CC48529002AEBE1 /* ViewController.swift */,
-				4511DE141CC48529002AEBE1 /* Main.storyboard */,
+				4511DE271CC4856D002AEBE1 /* Course.swift */,
+				4511DE141CC48529002AEBE1 /* Image.storyboard */,
+				4511DE2F1CC4AB7F002AEBE1 /* ImageViewController.swift */,
+				4511DE371CC5BDF3002AEBE1 /* ImageScrollView */,
+				4511DE221CC48538002AEBE1 /* Supporting Files */,
+			);
+			path = ImageViewController;
+			sourceTree = "<group>";
+		};
+		4511DE221CC48538002AEBE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4511DE381CC5E386002AEBE1 /* ViewController.swift */,
+				4511DE311CC4B03D002AEBE1 /* Then.swift */,
+				4511DE231CC48550002AEBE1 /* Helper.swift */,
 				4511DE171CC48529002AEBE1 /* Assets.xcassets */,
 				4511DE191CC48529002AEBE1 /* LaunchScreen.storyboard */,
 				4511DE1C1CC48529002AEBE1 /* Info.plist */,
 			);
-			path = ImageViewController;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4511DE371CC5BDF3002AEBE1 /* ImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4511DE331CC4DEBC002AEBE1 /* ImageScrollView.xib */,
+				4511DE351CC4DED3002AEBE1 /* ImageScrollView.swift */,
+			);
+			name = ImageScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4511DE1B1CC48529002AEBE1 /* LaunchScreen.storyboard in Resources */,
+				4511DE341CC4DEBC002AEBE1 /* ImageScrollView.xib in Resources */,
 				4511DE181CC48529002AEBE1 /* Assets.xcassets in Resources */,
-				4511DE161CC48529002AEBE1 /* Main.storyboard in Resources */,
+				4511DE161CC48529002AEBE1 /* Image.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,20 +170,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4511DE131CC48529002AEBE1 /* ViewController.swift in Sources */,
+				4511DE361CC4DED3002AEBE1 /* ImageScrollView.swift in Sources */,
+				4511DE391CC5E386002AEBE1 /* ViewController.swift in Sources */,
+				4511DE281CC4856D002AEBE1 /* Course.swift in Sources */,
+				4511DE301CC4AB7F002AEBE1 /* ImageViewController.swift in Sources */,
 				4511DE111CC48529002AEBE1 /* AppDelegate.swift in Sources */,
+				4511DE321CC4B03D002AEBE1 /* Then.swift in Sources */,
+				4511DE241CC48550002AEBE1 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4511DE141CC48529002AEBE1 /* Main.storyboard */ = {
+		4511DE141CC48529002AEBE1 /* Image.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4511DE151CC48529002AEBE1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Image.storyboard;
 			sourceTree = "<group>";
 		};
 		4511DE191CC48529002AEBE1 /* LaunchScreen.storyboard */ = {
@@ -252,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.beeth0ven.ImageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -263,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.beeth0ven.ImageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
